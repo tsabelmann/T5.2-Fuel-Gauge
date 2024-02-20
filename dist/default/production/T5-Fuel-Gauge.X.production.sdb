@@ -1,0 +1,1420 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F27Q84 ]
+[d frameptr 1249 ]
+"93 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/can/src/can1.c
+[e E22661 CAN_OP_MODES `uc
+CAN_NORMAL_FD_MODE 0
+CAN_DISABLE_MODE 1
+CAN_INTERNAL_LOOPBACK_MODE 2
+CAN_LISTEN_ONLY_MODE 3
+CAN_CONFIGURATION_MODE 4
+CAN_EXTERNAL_LOOPBACK_MODE 5
+CAN_NORMAL_2_0_MODE 6
+CAN_RESTRICTED_OPERATION_MODE 7
+]
+[e E22670 CAN_OP_MODE_STATUS `uc
+CAN_OP_MODE_REQUEST_SUCCESS 0
+CAN_OP_MODE_REQUEST_FAIL 1
+CAN_OP_MODE_SYS_ERROR_OCCURED 2
+]
+[e E22628 CAN_TX_FIFO_CHANNELS `uc
+CAN1_TXQ 0
+CAN_TX_FIFO_MAX 1
+]
+[e E22656 CAN_TX_MSG_REQUEST_STATUS `uc
+CAN_TX_MSG_REQUEST_SUCCESS 0
+CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR 1
+CAN_TX_MSG_REQUEST_BRS_ERROR 2
+CAN_TX_MSG_REQUEST_FIFO_FULL 3
+]
+[e E22674 CAN_TX_FIFO_STATUS `uc
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_AVAILABLE 1
+]
+[e E22631 CAN_RX_FIFO_CHANNELS `uc
+CAN1_FIFO_1 1
+CAN_RX_FIFO_MAX 2
+]
+"159
+[e E22681 CAN_DLC `uc
+DLC_0 0
+DLC_1 1
+DLC_2 2
+DLC_3 3
+DLC_4 4
+DLC_5 5
+DLC_6 6
+DLC_7 7
+DLC_8 8
+DLC_12 9
+DLC_16 10
+DLC_20 11
+DLC_24 12
+DLC_32 13
+DLC_48 14
+DLC_64 15
+]
+"210
+[e E22647 CAN_MSG_OBJ_ID_TYPE `uc
+CAN_FRAME_STD 0
+CAN_FRAME_EXT 1
+]
+"244
+[e E22650 CAN_MSG_OBJ_FRAME_TYPE `uc
+CAN_FRAME_DATA 0
+CAN_FRAME_RTR 1
+]
+"271
+[e E22644 CAN_MSG_OBJ_BRS_MODE `uc
+CAN_NON_BRS_MODE 0
+CAN_BRS_MODE 1
+]
+"327
+[e E22677 CAN_RX_FIFO_STATUS `uc
+CAN_RX_MSG_NOT_AVAILABLE 0
+CAN_RX_MSG_AVAILABLE 1
+CAN_RX_MSG_OVERFLOW 8
+]
+"23 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\main.c
+[e E22480 CAN_MSG_OBJ_ID_TYPE `uc
+CAN_FRAME_STD 0
+CAN_FRAME_EXT 1
+]
+[e E22483 CAN_MSG_OBJ_FRAME_TYPE `uc
+CAN_FRAME_DATA 0
+CAN_FRAME_RTR 1
+]
+[e E22514 CAN_DLC `uc
+DLC_0 0
+DLC_1 1
+DLC_2 2
+DLC_3 3
+DLC_4 4
+DLC_5 5
+DLC_6 6
+DLC_7 7
+DLC_8 8
+DLC_12 9
+DLC_16 10
+DLC_20 11
+DLC_24 12
+DLC_32 13
+DLC_48 14
+DLC_64 15
+]
+[e E22486 CAN_MSG_OBJ_TYPE `uc
+CAN_2_0_FORMAT 0
+CAN_FD_FORMAT 1
+]
+[e E22477 CAN_MSG_OBJ_BRS_MODE `uc
+CAN_NON_BRS_MODE 0
+CAN_BRS_MODE 1
+]
+"109
+[e E23013 . `uc
+SPI2_DEFAULT 0
+]
+"254
+[e E22494 CAN_OP_MODES `uc
+CAN_NORMAL_FD_MODE 0
+CAN_DISABLE_MODE 1
+CAN_INTERNAL_LOOPBACK_MODE 2
+CAN_LISTEN_ONLY_MODE 3
+CAN_CONFIGURATION_MODE 4
+CAN_EXTERNAL_LOOPBACK_MODE 5
+CAN_NORMAL_2_0_MODE 6
+CAN_RESTRICTED_OPERATION_MODE 7
+]
+[e E22503 CAN_OP_MODE_STATUS `uc
+CAN_OP_MODE_REQUEST_SUCCESS 0
+CAN_OP_MODE_REQUEST_FAIL 1
+CAN_OP_MODE_SYS_ERROR_OCCURED 2
+]
+"263
+[e E22461 CAN_TX_FIFO_CHANNELS `uc
+CAN1_TXQ 0
+CAN_TX_FIFO_MAX 1
+]
+[e E22489 CAN_TX_MSG_REQUEST_STATUS `uc
+CAN_TX_MSG_REQUEST_SUCCESS 0
+CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR 1
+CAN_TX_MSG_REQUEST_BRS_ERROR 2
+CAN_TX_MSG_REQUEST_FIFO_FULL 3
+]
+[e E22507 CAN_TX_FIFO_STATUS `uc
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_AVAILABLE 1
+]
+[e E22464 CAN_RX_FIFO_CHANNELS `uc
+CAN1_FIFO_1 1
+CAN_RX_FIFO_MAX 2
+]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"57 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\main.c
+[v _UpdateTmr UpdateTmr `(v  1 s 1 UpdateTmr ]
+"61
+[v _IO_RTC_StartTime IO_RTC_StartTime `(v  1 s 1 IO_RTC_StartTime ]
+"67
+[v _IO_RTC_GetTimeUS IO_RTC_GetTimeUS `(ul  1 s 4 IO_RTC_GetTimeUS ]
+"71
+[v _linear_map linear_map `(us  1 e 2 0 ]
+"107
+[v _setup_Poti setup_Poti `(v  1 e 1 0 ]
+"146
+[v _transmit_P transmit_P `(v  1 e 1 0 ]
+"173
+[v _calculate_P calculate_P `(v  1 e 1 0 ]
+"252
+[v _main main `(v  1 e 1 0 ]
+"159 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/can/src/can1.c
+[v _CAN1_DlcToDataBytesGet CAN1_DlcToDataBytesGet `(uc  1 s 1 CAN1_DlcToDataBytesGet ]
+"183
+[v _CAN1_IsTxChannel CAN1_IsTxChannel `(a  1 s 1 CAN1_IsTxChannel ]
+"194
+[v _CAN1_GetTxFifoStatus CAN1_GetTxFifoStatus `(E22674  1 s 1 CAN1_GetTxFifoStatus ]
+"206
+[v _CAN1_MessageWriteToFifo CAN1_MessageWriteToFifo `(v  1 s 1 CAN1_MessageWriteToFifo ]
+"266
+[v _CAN1_ValidateTransmission CAN1_ValidateTransmission `(E22656  1 s 1 CAN1_ValidateTransmission ]
+"297
+[v _CAN1_RX_FIFO_ResetInfo CAN1_RX_FIFO_ResetInfo `(v  1 s 1 CAN1_RX_FIFO_ResetInfo ]
+"314
+[v _CAN1_IsRxChannel CAN1_IsRxChannel `(a  1 s 1 CAN1_IsRxChannel ]
+"325
+[v _CAN1_GetRxFifoStatus CAN1_GetRxFifoStatus `(uc  1 s 1 CAN1_GetRxFifoStatus ]
+"336
+[v _CAN1_GetRxFifoDepth CAN1_GetRxFifoDepth `(uc  1 s 1 CAN1_GetRxFifoDepth ]
+"348
+[v _CAN1_MessageReadFromFifo CAN1_MessageReadFromFifo `(v  1 s 1 CAN1_MessageReadFromFifo ]
+"399
+[v _CAN1_ReceiveFromFiFo CAN1_ReceiveFromFiFo `(a  1 s 1 CAN1_ReceiveFromFiFo ]
+"447
+[v _CAN1_TX_FIFO_Configuration CAN1_TX_FIFO_Configuration `(v  1 s 1 CAN1_TX_FIFO_Configuration ]
+"465
+[v _CAN1_RX_FIFO_Configuration CAN1_RX_FIFO_Configuration `(v  1 s 1 CAN1_RX_FIFO_Configuration ]
+"483
+[v _CAN1_RX_FIFO_FilterMaskConfiguration CAN1_RX_FIFO_FilterMaskConfiguration `(v  1 s 1 CAN1_RX_FIFO_FilterMaskConfiguration ]
+"515
+[v _CAN1_BitRateConfiguration CAN1_BitRateConfiguration `(v  1 s 1 CAN1_BitRateConfiguration ]
+"528
+[v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
+"575
+[v _CAN1_Deinitialize CAN1_Deinitialize `(v  1 e 1 0 ]
+"622
+[v _CAN1_OperationModeSet CAN1_OperationModeSet `(E22670  1 e 1 0 ]
+"650
+[v _CAN1_OperationModeGet CAN1_OperationModeGet `(E22661  1 e 1 0 ]
+"655
+[v _CAN1_Transmit CAN1_Transmit `(E22656  1 e 1 0 ]
+"679
+[v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E22674  1 e 1 0 ]
+"691
+[v _CAN1_IsTxErrorPassive CAN1_IsTxErrorPassive `(a  1 e 1 0 ]
+"696
+[v _CAN1_IsTxErrorWarning CAN1_IsTxErrorWarning `(a  1 e 1 0 ]
+"701
+[v _CAN1_IsTxErrorActive CAN1_IsTxErrorActive `(a  1 e 1 0 ]
+"713
+[v _CAN1_Receive CAN1_Receive `(a  1 e 1 0 ]
+"732
+[v _CAN1_ReceiveMessageGet CAN1_ReceiveMessageGet `(a  1 e 1 0 ]
+"749
+[v _CAN1_ReceivedMessageCountGet CAN1_ReceivedMessageCountGet `(uc  1 e 1 0 ]
+"800
+[v _CAN1_ReceiveFIFOStatusGet CAN1_ReceiveFIFOStatusGet `(uc  1 e 1 0 ]
+"812
+[v _CAN1_IsRxErrorPassive CAN1_IsRxErrorPassive `(a  1 e 1 0 ]
+"817
+[v _CAN1_IsRxErrorWarning CAN1_IsRxErrorWarning `(a  1 e 1 0 ]
+"822
+[v _CAN1_IsRxErrorActive CAN1_IsRxErrorActive `(a  1 e 1 0 ]
+"834
+[v _CAN1_IsBusOff CAN1_IsBusOff `(a  1 e 1 0 ]
+"839
+[v _CAN1_Sleep CAN1_Sleep `(v  1 e 1 0 ]
+"851
+[v _CAN1_InvalidMessageCallbackRegister CAN1_InvalidMessageCallbackRegister `(v  1 e 1 0 ]
+"859
+[v _CAN1_BusWakeUpActivityCallbackRegister CAN1_BusWakeUpActivityCallbackRegister `(v  1 e 1 0 ]
+"867
+[v _CAN1_BusErrorCallbackRegister CAN1_BusErrorCallbackRegister `(v  1 e 1 0 ]
+"875
+[v _CAN1_ModeChangeCallbackRegister CAN1_ModeChangeCallbackRegister `(v  1 e 1 0 ]
+"883
+[v _CAN1_SystemErrorCallbackRegister CAN1_SystemErrorCallbackRegister `(v  1 e 1 0 ]
+"891
+[v _CAN1_TxAttemptCallbackRegister CAN1_TxAttemptCallbackRegister `(v  1 e 1 0 ]
+"899
+[v _CAN1_RxBufferOverFlowCallbackRegister CAN1_RxBufferOverFlowCallbackRegister `(v  1 e 1 0 ]
+"907
+[v _CAN1_InformationISR CAN1_InformationISR `(v  1 e 1 0 ]
+"923
+[v _CAN1_Tasks CAN1_Tasks `(v  1 e 1 0 ]
+"70 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/spi/src/spi2.c
+[v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
+"85
+[v _SPI2_Open SPI2_Open `(a  1 e 1 0 ]
+"101
+[v _SPI2_Close SPI2_Close `(v  1 e 1 0 ]
+"106
+[v _SPI2_ByteExchange SPI2_ByteExchange `(uc  1 e 1 0 ]
+"114
+[v _SPI2_BufferExchange SPI2_BufferExchange `(v  1 e 1 0 ]
+"127
+[v _SPI2_BufferWrite SPI2_BufferWrite `(v  1 e 1 0 ]
+"136
+[v _SPI2_BufferRead SPI2_BufferRead `(v  1 e 1 0 ]
+"145
+[v _SPI2_ByteWrite SPI2_ByteWrite `(v  1 e 1 0 ]
+"150
+[v _SPI2_ByteRead SPI2_ByteRead `(uc  1 e 1 0 ]
+"37 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"110
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"119
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"123
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"136
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"145
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"149
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"162
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"171
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"175
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"128
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"38 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"50
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"35 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/watchdog.c
+[v _WWDT_Initialize WWDT_Initialize `(v  1 e 1 0 ]
+"50 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/timer/src/tmr0.c
+[v _Timer0_Initialize Timer0_Initialize `(v  1 e 1 0 ]
+"77
+[v _Timer0_Start Timer0_Start `(v  1 e 1 0 ]
+"82
+[v _Timer0_Stop Timer0_Stop `(v  1 e 1 0 ]
+"112
+[v _Timer0_PeriodCountSet Timer0_PeriodCountSet `(v  1 e 1 0 ]
+"117
+[v _Timer0_OverflowISR Timer0_OverflowISR `(v  1 e 1 0 ]
+"131
+[v _Timer0_OverflowCallbackRegister Timer0_OverflowCallbackRegister `(v  1 e 1 0 ]
+"136
+[v _Timer0_DefaultOverflowCallback Timer0_DefaultOverflowCallback `(v  1 s 1 Timer0_DefaultOverflowCallback ]
+[s S608 . 1 `uc 1 SWIE 1 0 :1:0 
+`uc 1 HLVDIE 1 0 :1:1 
+`uc 1 OSFIE 1 0 :1:2 
+`uc 1 CSWIE 1 0 :1:3 
+`uc 1 TU16AIE 1 0 :1:4 
+`uc 1 CLC1IE 1 0 :1:5 
+`uc 1 CANIE 1 0 :1:6 
+`uc 1 IOCIE 1 0 :1:7 
+]
+"617 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-Q_DFP/1.24.430/xc8\pic\include\proc\pic18f27q84.h
+[u S617 . 1 `S608 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES617  1 e 1 @1182 ]
+[s S1414 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+`uc 1 SPI1TXIE 1 0 :1:1 
+`uc 1 SPI1IE 1 0 :1:2 
+`uc 1 TMR2IE 1 0 :1:3 
+`uc 1 TMR1IE 1 0 :1:4 
+`uc 1 TMR1GIE 1 0 :1:5 
+`uc 1 CCP1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"811
+[u S1423 . 1 `S1414 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1423  1 e 1 @1185 ]
+"1338
+[v _PMD0 PMD0 `VEuc  1 e 1 @96 ]
+"1404
+[v _PMD1 PMD1 `VEuc  1 e 1 @97 ]
+"1466
+[v _PMD2 PMD2 `VEuc  1 e 1 @98 ]
+"1513
+[v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
+"1564
+[v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
+[s S651 . 1 `uc 1 SWIF 1 0 :1:0 
+`uc 1 HLVDIF 1 0 :1:1 
+`uc 1 OSFIF 1 0 :1:2 
+`uc 1 CSWIF 1 0 :1:3 
+`uc 1 TU16AIF 1 0 :1:4 
+`uc 1 CLC1IF 1 0 :1:5 
+`uc 1 CANIF 1 0 :1:6 
+`uc 1 IOCIF 1 0 :1:7 
+]
+"1602
+[u S660 . 1 `S651 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES660  1 e 1 @1198 ]
+"1620
+[v _PMD5 PMD5 `VEuc  1 e 1 @101 ]
+[s S1293 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ACTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"1664
+[u S1302 . 1 `S1293 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1302  1 e 1 @1199 ]
+"1677
+[v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
+"1739
+[v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
+[s S1435 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+`uc 1 SPI1TXIF 1 0 :1:1 
+`uc 1 SPI1IF 1 0 :1:2 
+`uc 1 TMR2IF 1 0 :1:3 
+`uc 1 TMR1IF 1 0 :1:4 
+`uc 1 TMR1GIF 1 0 :1:5 
+`uc 1 CCP1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"1796
+[u S1444 . 1 `S1435 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES1444  1 e 1 @1201 ]
+"1801
+[v _PMD8 PMD8 `VEuc  1 e 1 @104 ]
+[s S1170 . 1 `uc 1 SPI2RXIF 1 0 :1:0 
+`uc 1 SPI2TXIF 1 0 :1:1 
+`uc 1 SPI2IF 1 0 :1:2 
+`uc 1 TU16BIF 1 0 :1:3 
+`uc 1 TMR3IF 1 0 :1:4 
+`uc 1 TMR3GIF 1 0 :1:5 
+`uc 1 PWM2PIF 1 0 :1:6 
+`uc 1 PWM2IF 1 0 :1:7 
+]
+"1920
+[u S1179 . 1 `S1170 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES1179  1 e 1 @1203 ]
+[s S1324 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 CLC2IF 1 0 :1:1 
+`uc 1 CWG1IF 1 0 :1:2 
+`uc 1 NCO1IF 1 0 :1:3 
+`uc 1 DMA2SCNTIF 1 0 :1:4 
+`uc 1 DMA2DCNTIF 1 0 :1:5 
+`uc 1 DMA2ORIF 1 0 :1:6 
+`uc 1 DMA2AIF 1 0 :1:7 
+]
+"1982
+[u S1333 . 1 `S1324 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES1333  1 e 1 @1204 ]
+[s S1355 . 1 `uc 1 INT2IF 1 0 :1:0 
+`uc 1 CLC5IF 1 0 :1:1 
+`uc 1 CWG2IF 1 0 :1:2 
+`uc 1 NCO2IF 1 0 :1:3 
+`uc 1 DMA3SCNTIF 1 0 :1:4 
+`uc 1 DMA3DCNTIF 1 0 :1:5 
+`uc 1 DMA3ORIF 1 0 :1:6 
+`uc 1 DMA3AIF 1 0 :1:7 
+]
+"2220
+[u S1364 . 1 `S1355 1 . 1 0 ]
+[v _PIR10bits PIR10bits `VES1364  1 e 1 @1208 ]
+"2570
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+[s S1913 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"2587
+[u S1922 . 1 `S1913 1 . 1 0 ]
+[v _LATAbits LATAbits `VES1922  1 e 1 @1214 ]
+"2632
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"2694
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+"2756
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"2791
+[v _WDTCON0 WDTCON0 `VEuc  1 e 1 @120 ]
+"2818
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+[s S1118 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"2835
+[u S1127 . 1 `S1118 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES1127  1 e 1 @1223 ]
+"2866
+[v _WDTCON1 WDTCON1 `VEuc  1 e 1 @121 ]
+"2880
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"2942
+[v _TRISE TRISE `VEuc  1 e 1 @1226 ]
+[s S1267 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"3190
+[s S1275 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S1278 . 1 `S1267 1 . 1 0 `S1275 1 . 1 0 ]
+[v _INTCON0bits INTCON0bits `VES1278  1 e 1 @1238 ]
+"3802
+[v _PCON0 PCON0 `VEuc  1 e 1 @1264 ]
+"4393
+[v _SPI2RXB SPI2RXB `VEuc  1 e 1 @141 ]
+"4463
+[v _SPI2TXB SPI2TXB `VEuc  1 e 1 @142 ]
+"4540
+[v _SPI2TCNTL SPI2TCNTL `VEuc  1 e 1 @143 ]
+"4580
+[v _SPI2CON0 SPI2CON0 `VEuc  1 e 1 @145 ]
+[s S1140 . 1 `uc 1 BMODE 1 0 :1:0 
+`uc 1 MST 1 0 :1:1 
+`uc 1 LSBF 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 EN 1 0 :1:7 
+]
+"4601
+[s S1146 . 1 `uc 1 SPI2BMODE 1 0 :1:0 
+`uc 1 SPI2MST 1 0 :1:1 
+`uc 1 SPI2LSBF 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 SPI2SPIEN 1 0 :1:7 
+]
+[u S1152 . 1 `S1140 1 . 1 0 `S1146 1 . 1 0 ]
+[v _SPI2CON0bits SPI2CON0bits `VES1152  1 e 1 @145 ]
+"4646
+[v _SPI2CON1 SPI2CON1 `VEuc  1 e 1 @146 ]
+"4748
+[v _SPI2CON2 SPI2CON2 `VEuc  1 e 1 @147 ]
+"4948
+[v _SPI2BAUD SPI2BAUD `VEuc  1 e 1 @150 ]
+"5202
+[v _SPI2CLK SPI2CLK `VEuc  1 e 1 @153 ]
+"5294
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5335
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5475
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5515
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5573
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5775
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"8943
+[v _C1CONL C1CONL `VEuc  1 e 1 @256 ]
+"9013
+[v _C1CONH C1CONH `VEuc  1 e 1 @257 ]
+[s S409 . 1 `uc 1 WAKFIL 1 0 :1:0 
+`uc 1 WFT 1 0 :2:1 
+`uc 1 BUSY 1 0 :1:3 
+`uc 1 BRSDIS 1 0 :1:4 
+`uc 1 SIDL 1 0 :1:5 
+`uc 1 FRZ 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"9034
+[s S417 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WFT0 1 0 :1:1 
+`uc 1 WFT1 1 0 :1:2 
+]
+[u S421 . 1 `S409 1 . 1 0 `S417 1 . 1 0 ]
+[v _C1CONHbits C1CONHbits `VES421  1 e 1 @257 ]
+"9084
+[v _C1CONU C1CONU `VEuc  1 e 1 @258 ]
+[s S443 . 1 `uc 1 RTXAT 1 0 :1:0 
+`uc 1 ESIGM 1 0 :1:1 
+`uc 1 SERR2LOM 1 0 :1:2 
+`uc 1 STEF 1 0 :1:3 
+`uc 1 TXQEN 1 0 :1:4 
+`uc 1 OPMOD 1 0 :3:5 
+]
+"9105
+[s S450 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 OPMOD0 1 0 :1:5 
+`uc 1 OPMOD1 1 0 :1:6 
+`uc 1 OPMOD2 1 0 :1:7 
+]
+[u S455 . 1 `S443 1 . 1 0 `S450 1 . 1 0 ]
+[v _C1CONUbits C1CONUbits `VES455  1 e 1 @258 ]
+"9155
+[v _C1CONT C1CONT `VEuc  1 e 1 @259 ]
+[s S471 . 1 `uc 1 REQOP 1 0 :3:0 
+`uc 1 ABAT 1 0 :1:3 
+`uc 1 TXBWS 1 0 :4:4 
+]
+"9177
+[s S475 . 1 `uc 1 REQOP0 1 0 :1:0 
+`uc 1 REQOP1 1 0 :1:1 
+`uc 1 REQOP2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXBWS0 1 0 :1:4 
+`uc 1 TXBWS1 1 0 :1:5 
+`uc 1 TXBWS2 1 0 :1:6 
+`uc 1 TXBWS3 1 0 :1:7 
+]
+[u S484 . 1 `S471 1 . 1 0 `S475 1 . 1 0 ]
+[v _C1CONTbits C1CONTbits `VES484  1 e 1 @259 ]
+"9232
+[v _C1NBTCFGL C1NBTCFGL `VEuc  1 e 1 @260 ]
+"9296
+[v _C1NBTCFGH C1NBTCFGH `VEuc  1 e 1 @261 ]
+"9360
+[v _C1NBTCFGU C1NBTCFGU `VEuc  1 e 1 @262 ]
+"9430
+[v _C1NBTCFGT C1NBTCFGT `VEuc  1 e 1 @263 ]
+[s S674 . 1 `uc 1 TXIF 1 0 :1:0 
+`uc 1 RXIF 1 0 :1:1 
+`uc 1 TBCIF 1 0 :1:2 
+`uc 1 MODIF 1 0 :1:3 
+`uc 1 TEFIF 1 0 :1:4 
+]
+"10420
+[u S680 . 1 `S674 1 . 1 0 ]
+[v _C1INTLbits C1INTLbits `VES680  1 e 1 @284 ]
+[s S501 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TXATIF 1 0 :1:2 
+`uc 1 RXOVIF 1 0 :1:3 
+`uc 1 SERRIF 1 0 :1:4 
+`uc 1 CERRIF 1 0 :1:5 
+`uc 1 WAKIF 1 0 :1:6 
+`uc 1 IVMIF 1 0 :1:7 
+]
+"10466
+[u S509 . 1 `S501 1 . 1 0 ]
+[v _C1INTHbits C1INTHbits `VES509  1 e 1 @285 ]
+[s S589 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TXATIE 1 0 :1:2 
+`uc 1 RXOVIE 1 0 :1:3 
+`uc 1 SERRIE 1 0 :1:4 
+`uc 1 CERRIE 1 0 :1:5 
+`uc 1 WAKIE 1 0 :1:6 
+`uc 1 IVMIE 1 0 :1:7 
+]
+"10561
+[u S597 . 1 `S589 1 . 1 0 ]
+[v _C1INTTbits C1INTTbits `VES597  1 e 1 @287 ]
+[s S563 . 1 `uc 1 RERRCNT 1 0 :8:0 
+]
+"12043
+[s S565 . 1 `uc 1 RERRCNT0 1 0 :1:0 
+`uc 1 RERRCNT1 1 0 :1:1 
+`uc 1 RERRCNT2 1 0 :1:2 
+`uc 1 RERRCNT3 1 0 :1:3 
+`uc 1 RERRCNT4 1 0 :1:4 
+`uc 1 RERRCNT5 1 0 :1:5 
+`uc 1 RERRCNT6 1 0 :1:6 
+`uc 1 RERRCNT7 1 0 :1:7 
+]
+[u S574 . 1 `S563 1 . 1 0 `S565 1 . 1 0 ]
+[v _C1TRECLbits C1TRECLbits `VES574  1 e 1 @308 ]
+[s S537 . 1 `uc 1 TERRCNT 1 0 :8:0 
+]
+"12113
+[s S539 . 1 `uc 1 TERRCNT0 1 0 :1:0 
+`uc 1 TERRCNT1 1 0 :1:1 
+`uc 1 TERRCNT2 1 0 :1:2 
+`uc 1 TERRCNT3 1 0 :1:3 
+`uc 1 TERRCNT4 1 0 :1:4 
+`uc 1 TERRCNT5 1 0 :1:5 
+`uc 1 TERRCNT6 1 0 :1:6 
+`uc 1 TERRCNT7 1 0 :1:7 
+]
+[u S548 . 1 `S537 1 . 1 0 `S539 1 . 1 0 ]
+[v _C1TRECHbits C1TRECHbits `VES548  1 e 1 @309 ]
+[s S520 . 1 `uc 1 EWARN 1 0 :1:0 
+`uc 1 RXWARN 1 0 :1:1 
+`uc 1 TXWARN 1 0 :1:2 
+`uc 1 RXBP 1 0 :1:3 
+`uc 1 TXBP 1 0 :1:4 
+`uc 1 TXBO 1 0 :1:5 
+]
+"12178
+[u S527 . 1 `S520 1 . 1 0 ]
+[v _C1TRECUbits C1TRECUbits `VES527  1 e 1 @310 ]
+"13238
+[v _C1FIFOBAL C1FIFOBAL `VEuc  1 e 1 @332 ]
+"13308
+[v _C1FIFOBAH C1FIFOBAH `VEuc  1 e 1 @333 ]
+"13518
+[v _C1TXQCONL C1TXQCONL `VEuc  1 e 1 @336 ]
+"13559
+[v _C1TXQCONH C1TXQCONH `VEuc  1 e 1 @337 ]
+"13591
+[v _C1TXQCONU C1TXQCONU `VEuc  1 e 1 @338 ]
+"13661
+[v _C1TXQCONT C1TXQCONT `VEuc  1 e 1 @339 ]
+[s S691 . 1 `uc 1 TXQNIF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TXQEIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXATIF 1 0 :1:4 
+`uc 1 TXERR 1 0 :1:5 
+`uc 1 TXLARB 1 0 :1:6 
+`uc 1 TXABT 1 0 :1:7 
+]
+"13754
+[u S700 . 1 `S691 1 . 1 0 ]
+[v _C1TXQSTALbits C1TXQSTALbits `VES700  1 e 1 @340 ]
+"14149
+[v _C1FIFOCON1L C1FIFOCON1L `VEuc  1 e 1 @348 ]
+"14211
+[v _C1FIFOCON1H C1FIFOCON1H `VEuc  1 e 1 @349 ]
+"14243
+[v _C1FIFOCON1U C1FIFOCON1U `VEuc  1 e 1 @350 ]
+"14313
+[v _C1FIFOCON1T C1FIFOCON1T `VEuc  1 e 1 @351 ]
+[s S713 . 1 `uc 1 TFNRFNIF 1 0 :1:0 
+`uc 1 TFHRFHIF 1 0 :1:1 
+`uc 1 TFERFFIF 1 0 :1:2 
+`uc 1 RXOVIF 1 0 :1:3 
+`uc 1 TXATIF 1 0 :1:4 
+`uc 1 TXERR 1 0 :1:5 
+`uc 1 TXLARB 1 0 :1:6 
+`uc 1 TXABT 1 0 :1:7 
+]
+"14413
+[u S722 . 1 `S713 1 . 1 0 ]
+[v _C1FIFOSTA1Lbits C1FIFOSTA1Lbits `VES722  1 e 1 @352 ]
+[s S373 . 1 `uc 1 F0BP 1 0 :5:0 
+`uc 1 . 1 0 :2:5 
+`uc 1 FLTEN0 1 0 :1:7 
+]
+"16168
+[s S377 . 1 `uc 1 F0BP0 1 0 :1:0 
+`uc 1 F0BP1 1 0 :1:1 
+`uc 1 F0BP2 1 0 :1:2 
+`uc 1 F0BP3 1 0 :1:3 
+`uc 1 F0BP4 1 0 :1:4 
+]
+[u S383 . 1 `S373 1 . 1 0 `S377 1 . 1 0 ]
+[v _C1FLTCON0Lbits C1FLTCON0Lbits `VES383  1 e 1 @384 ]
+"16864
+[v _C1FLTOBJ0L C1FLTOBJ0L `VEuc  1 e 1 @396 ]
+"16934
+[v _C1FLTOBJ0H C1FLTOBJ0H `VEuc  1 e 1 @397 ]
+"17010
+[v _C1FLTOBJ0U C1FLTOBJ0U `VEuc  1 e 1 @398 ]
+"17080
+[v _C1FLTOBJ0T C1FLTOBJ0T `VEuc  1 e 1 @399 ]
+"17151
+[v _C1MASK0L C1MASK0L `VEuc  1 e 1 @400 ]
+"17221
+[v _C1MASK0H C1MASK0H `VEuc  1 e 1 @401 ]
+"17297
+[v _C1MASK0U C1MASK0U `VEuc  1 e 1 @402 ]
+"17367
+[v _C1MASK0T C1MASK0T `VEuc  1 e 1 @403 ]
+"24215
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @522 ]
+"24315
+[v _RB3PPS RB3PPS `VEuc  1 e 1 @524 ]
+"24565
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @529 ]
+"24965
+[v _CANRXPPS CANRXPPS `VEuc  1 e 1 @573 ]
+"28578
+[v _SPI2SCKPPS SPI2SCKPPS `VEuc  1 e 1 @621 ]
+"28644
+[v _SPI2SDIPPS SPI2SDIPPS `VEuc  1 e 1 @622 ]
+"29604
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @646 ]
+"29736
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @647 ]
+"29868
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @648 ]
+"30000
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @649 ]
+"38417
+[v _TMR0L TMR0L `VEuc  1 e 1 @792 ]
+"38555
+[v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
+"38809
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
+[s S1726 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"38843
+[s S1732 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"38843
+[s S1738 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+"38843
+[s S1744 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+"38843
+[u S1749 . 1 `S1726 1 . 1 0 `S1732 1 . 1 0 `S1738 1 . 1 0 `S1744 1 . 1 0 ]
+"38843
+"38843
+[v _T0CON0bits T0CON0bits `VES1749  1 e 1 @794 ]
+"38933
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
+"59209
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"59271
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"59333
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"59395
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"59457
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"59519
+[v _IOCAP IOCAP `VEuc  1 e 1 @1029 ]
+"59581
+[v _IOCAN IOCAN `VEuc  1 e 1 @1030 ]
+"59643
+[v _IOCAF IOCAF `VEuc  1 e 1 @1031 ]
+"59705
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"59767
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"59829
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"59891
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"59953
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"60015
+[v _IOCBP IOCBP `VEuc  1 e 1 @1037 ]
+"60077
+[v _IOCBN IOCBN `VEuc  1 e 1 @1038 ]
+"60139
+[v _IOCBF IOCBF `VEuc  1 e 1 @1039 ]
+"60201
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"60263
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"60325
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"60387
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"60449
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"60511
+[v _IOCCP IOCCP `VEuc  1 e 1 @1045 ]
+"60573
+[v _IOCCN IOCCN `VEuc  1 e 1 @1046 ]
+"60635
+[v _IOCCF IOCCF `VEuc  1 e 1 @1047 ]
+"60697
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"60718
+[v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
+"60739
+[v _IOCEP IOCEP `VEuc  1 e 1 @1061 ]
+"60760
+[v _IOCEN IOCEN `VEuc  1 e 1 @1062 ]
+"60781
+[v _IOCEF IOCEF `VEuc  1 e 1 @1063 ]
+"63472
+[v _FSCMCON FSCMCON `VEuc  1 e 1 @1112 ]
+"22 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\main.c
+[v _TxData TxData `[8]uc  1 s 8 TxData ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+"23
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v _TxFrm TxFrm `S50  1 s 7 TxFrm ]
+"36
+[v _RxData RxData `[8]uc  1 s 8 RxData ]
+"37
+[v _RxFrm RxFrm `S50  1 s 7 RxFrm ]
+"49
+[v _P0 P0 `uc  1 s 1 P0 ]
+"50
+[v _P1 P1 `uc  1 s 1 P1 ]
+"51
+[v _SoC SoC `us  1 s 2 SoC ]
+"52
+[v _Tmr Tmr `ul  1 s 4 Tmr ]
+"53
+[v _TiOutTmr TiOutTmr `ul  1 s 4 TiOutTmr ]
+"56
+[v ___INTERNAL_TIMER__ __INTERNAL_TIMER__ `ul  1 s 4 __INTERNAL_TIMER__ ]
+[s S94 CAN_INTERFACE 78 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(E22670 1 OperationModeSet 3 6 `*.38(E22661 1 OperationModeGet 3 9 `*.38(E22656 1 Transmit 3 12 `*.38(E22674 1 TransmitFIFOStatusGet 3 15 `*.38(a 1 IsTxErrorPassive 3 18 `*.38(a 1 IsTxErrorWarning 3 21 `*.38(a 1 IsTxErrorActive 3 24 `*.38(a 1 Receive 3 27 `*.38(a 1 ReceiveMessageGet 3 30 `*.38(uc 1 ReceivedMessageCountGet 3 33 `*.38(uc 1 ReceiveFIFOStatusGet 3 36 `*.38(a 1 IsRxErrorPassive 3 39 `*.38(a 1 IsRxErrorWarning 3 42 `*.38(a 1 IsRxErrorActive 3 45 `*.38(a 1 IsBusOff 3 48 `*.38(v 1 SleepMode 3 51 `*.38(v 1 InvalidMessageCallbackRegister 3 54 `*.38(v 1 BusWakeUpActivityCallbackRegister 3 57 `*.38(v 1 BusErrorCallbackRegister 3 60 `*.38(v 1 ModeChangeCallbackRegister 3 63 `*.38(v 1 SystemErrorCallbackRegister 3 66 `*.38(v 1 TxAttemptCallbackRegister 3 69 `*.38(v 1 RxBufferOverFlowCallbackRegister 3 72 `*.38(v 1 Tasks 3 75 ]
+"93 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/can/src/can1.c
+[v _CAN1 CAN1 `CS94  1 e 78 0 ]
+"123
+[v _CAN1_InvalidMessageHandler CAN1_InvalidMessageHandler `*.38(v  1 s 3 CAN1_InvalidMessageHandler ]
+"124
+[v _CAN1_BusWakeUpActivityHandler CAN1_BusWakeUpActivityHandler `*.38(v  1 s 3 CAN1_BusWakeUpActivityHandler ]
+"125
+[v _CAN1_BusErrorHandler CAN1_BusErrorHandler `*.38(v  1 s 3 CAN1_BusErrorHandler ]
+"126
+[v _CAN1_ModeChangeHandler CAN1_ModeChangeHandler `*.38(v  1 s 3 CAN1_ModeChangeHandler ]
+"127
+[v _CAN1_SystemErrorHandler CAN1_SystemErrorHandler `*.38(v  1 s 3 CAN1_SystemErrorHandler ]
+"128
+[v _CAN1_TxAttemptHandler CAN1_TxAttemptHandler `*.38(v  1 s 3 CAN1_TxAttemptHandler ]
+"129
+[v _CAN1_RxBufferOverFlowHandler CAN1_RxBufferOverFlowHandler `*.38(v  1 s 3 CAN1_RxBufferOverFlowHandler ]
+"131
+[v _rxMsgData rxMsgData `[8]uc  1 s 8 rxMsgData ]
+[s S315 CAN1_RX_FIFO_MSG 2 `CE22631 1 channel 1 0 `uc 1 headCount 1 1 ]
+"144
+[v _rxFIFOMsg rxFIFOMsg `VE[1]S315  1 s 2 rxFIFOMsg ]
+[s S1026 SPI_INTERFACE 27 `*.38(v 1 Initialize 3 0 `*.38(v 1 Close 3 3 `*.38(a 1 Open 3 6 `*.38(v 1 BufferExchange 3 9 `*.38(v 1 BufferRead 3 12 `*.38(v 1 BufferWrite 3 15 `*.38(uc 1 ByteExchange 3 18 `*.38(uc 1 ByteRead 3 21 `*.38(v 1 ByteWrite 3 24 ]
+"42 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/spi/src/spi2.c
+[v _SPI2 SPI2 `CS1026  1 e 27 0 ]
+[s S1108 . 5 `uc 1 con0 1 0 `uc 1 con1 1 1 `uc 1 con2 1 2 `uc 1 baud 1 3 `uc 1 operation 1 4 ]
+"65
+[v _spi2_configuration spi2_configuration `C[1]S1108  1 s 5 spi2_configuration ]
+"38 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+"36 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/timer/src/tmr0.c
+[v _timerTMR0ReloadVal16bit timerTMR0ReloadVal16bit `VEus  1 e 2 0 ]
+"47
+[v _Timer0_OverflowCallback Timer0_OverflowCallback `*.38(v  1 s 3 Timer0_OverflowCallback ]
+"252 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"266
+[v main@SoC_raw SoC_raw `us  1 a 2 0 ]
+"303
+} 0
+"146
+[v _transmit_P transmit_P `(v  1 e 1 0 ]
+{
+[v transmit_P@p0 p0 `uc  1 a 1 wreg ]
+[v transmit_P@p0 p0 `uc  1 a 1 wreg ]
+[v transmit_P@p1 p1 `uc  1 p 1 4 ]
+"149
+[v transmit_P@p0 p0 `uc  1 a 1 6 ]
+"171
+} 0
+"107
+[v _setup_Poti setup_Poti `(v  1 e 1 0 ]
+{
+"144
+} 0
+"85 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/spi/src/spi2.c
+[v _SPI2_Open SPI2_Open `(a  1 e 1 0 ]
+{
+[v SPI2_Open@spiConfigIndex spiConfigIndex `uc  1 a 1 wreg ]
+[v SPI2_Open@spiConfigIndex spiConfigIndex `uc  1 a 1 wreg ]
+"87
+[v SPI2_Open@spiConfigIndex spiConfigIndex `uc  1 a 1 3 ]
+"99
+} 0
+"101
+[v _SPI2_Close SPI2_Close `(v  1 e 1 0 ]
+{
+"104
+} 0
+"106
+[v _SPI2_ByteExchange SPI2_ByteExchange `(uc  1 e 1 0 ]
+{
+[v SPI2_ByteExchange@data data `uc  1 a 1 wreg ]
+[v SPI2_ByteExchange@data data `uc  1 a 1 wreg ]
+"108
+[v SPI2_ByteExchange@data data `uc  1 a 1 2 ]
+"112
+} 0
+"71 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\main.c
+[v _linear_map linear_map `(us  1 e 2 0 ]
+{
+"80
+[v linear_map@X X `ul  1 a 4 57 ]
+"78
+[v linear_map@A A `ul  1 a 4 53 ]
+"84
+[v linear_map@ret ret `ul  1 a 4 49 ]
+"82
+[v linear_map@V V `ul  1 a 4 45 ]
+"81
+[v linear_map@Y Y `ul  1 a 4 41 ]
+"79
+[v linear_map@B B `ul  1 a 4 37 ]
+"71
+[v linear_map@a a `us  1 p 2 27 ]
+[v linear_map@b b `us  1 p 2 29 ]
+[v linear_map@x x `us  1 p 2 31 ]
+[v linear_map@y y `us  1 p 2 33 ]
+[v linear_map@value value `us  1 p 2 35 ]
+"87
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 10 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 2 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 6 ]
+"129
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 22 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 26 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 14 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 18 ]
+"30
+} 0
+"173 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\main.c
+[v _calculate_P calculate_P `(v  1 e 1 0 ]
+{
+[v calculate_P@p0 p0 `C*.39uc  1 p 2 2 ]
+[v calculate_P@p1 p1 `C*.39uc  1 p 2 4 ]
+[v calculate_P@percent percent `us  1 p 2 6 ]
+"250
+} 0
+"77 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/timer/src/tmr0.c
+[v _Timer0_Start Timer0_Start `(v  1 e 1 0 ]
+{
+"80
+} 0
+"38 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"48
+} 0
+"35 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/watchdog.c
+[v _WWDT_Initialize WWDT_Initialize `(v  1 e 1 0 ]
+{
+"43
+} 0
+"50 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/timer/src/tmr0.c
+[v _Timer0_Initialize Timer0_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"131
+[v _Timer0_OverflowCallbackRegister Timer0_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v Timer0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.38(v  1 p 3 2 ]
+"134
+} 0
+"70 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/spi/src/spi2.c
+[v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"50 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/system.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"38 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"126
+} 0
+"42 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"171
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 2 ]
+"173
+} 0
+"145
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 2 ]
+"147
+} 0
+"119
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 2 ]
+"121
+} 0
+"37 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"528 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/can/src/can1.c
+[v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
+{
+"573
+} 0
+"447
+[v _CAN1_TX_FIFO_Configuration CAN1_TX_FIFO_Configuration `(v  1 s 1 CAN1_TX_FIFO_Configuration ]
+{
+"457
+} 0
+"297
+[v _CAN1_RX_FIFO_ResetInfo CAN1_RX_FIFO_ResetInfo `(v  1 s 1 CAN1_RX_FIFO_ResetInfo ]
+{
+"299
+[v CAN1_RX_FIFO_ResetInfo@count count `uc  1 a 1 2 ]
+"305
+} 0
+"483
+[v _CAN1_RX_FIFO_FilterMaskConfiguration CAN1_RX_FIFO_FilterMaskConfiguration `(v  1 s 1 CAN1_RX_FIFO_FilterMaskConfiguration ]
+{
+"507
+} 0
+"465
+[v _CAN1_RX_FIFO_Configuration CAN1_RX_FIFO_Configuration `(v  1 s 1 CAN1_RX_FIFO_Configuration ]
+{
+"475
+} 0
+"622
+[v _CAN1_OperationModeSet CAN1_OperationModeSet `(E22670  1 e 1 0 ]
+{
+[v CAN1_OperationModeSet@requestMode requestMode `CE22661  1 a 1 wreg ]
+"624
+[v CAN1_OperationModeSet@status status `E22670  1 a 1 2 ]
+"622
+[v CAN1_OperationModeSet@requestMode requestMode `CE22661  1 a 1 wreg ]
+"624
+[v CAN1_OperationModeSet@requestMode requestMode `CE22661  1 a 1 3 ]
+"648
+} 0
+"650
+[v _CAN1_OperationModeGet CAN1_OperationModeGet `(E22661  1 e 1 0 ]
+{
+"653
+} 0
+"515
+[v _CAN1_BitRateConfiguration CAN1_BitRateConfiguration `(v  1 s 1 CAN1_BitRateConfiguration ]
+{
+"525
+} 0
+"61 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\main.c
+[v _IO_RTC_StartTime IO_RTC_StartTime `(v  1 s 1 IO_RTC_StartTime ]
+{
+[v IO_RTC_StartTime@ptr ptr `C*.39ul  1 p 2 2 ]
+"65
+} 0
+"67
+[v _IO_RTC_GetTimeUS IO_RTC_GetTimeUS `(ul  1 s 4 IO_RTC_GetTimeUS ]
+{
+[v IO_RTC_GetTimeUS@tmr tmr `ul  1 p 4 2 ]
+"69
+} 0
+"655 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/can/src/can1.c
+[v _CAN1_Transmit CAN1_Transmit `(E22656  1 e 1 0 ]
+{
+[v CAN1_Transmit@fifoChannel fifoChannel `CE22628  1 a 1 wreg ]
+"657
+[v CAN1_Transmit@txFifoObj txFifoObj `*.39uc  1 a 2 30 ]
+"659
+[v CAN1_Transmit@status status `E22656  1 a 1 29 ]
+"655
+[v CAN1_Transmit@fifoChannel fifoChannel `CE22628  1 a 1 wreg ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_Transmit@txCanMsg txCanMsg `*.39S50  1 p 2 27 ]
+[v CAN1_Transmit@fifoChannel fifoChannel `CE22628  1 a 1 32 ]
+"677
+} 0
+"266
+[v _CAN1_ValidateTransmission CAN1_ValidateTransmission `(E22656  1 s 1 CAN1_ValidateTransmission ]
+{
+[v CAN1_ValidateTransmission@channel channel `uc  1 a 1 wreg ]
+"268
+[v CAN1_ValidateTransmission@txMsgStatus txMsgStatus `E22656  1 a 1 10 ]
+"266
+[v CAN1_ValidateTransmission@channel channel `uc  1 a 1 wreg ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_ValidateTransmission@txCanMsg txCanMsg `*.39S50  1 p 2 6 ]
+"268
+[v CAN1_ValidateTransmission@channel channel `uc  1 a 1 9 ]
+"289
+} 0
+"679
+[v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E22674  1 e 1 0 ]
+{
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE22628  1 a 1 wreg ]
+"681
+[v CAN1_TransmitFIFOStatusGet@status status `E22674  1 a 1 4 ]
+"679
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE22628  1 a 1 wreg ]
+"681
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE22628  1 a 1 5 ]
+"689
+} 0
+"183
+[v _CAN1_IsTxChannel CAN1_IsTxChannel `(a  1 s 1 CAN1_IsTxChannel ]
+{
+[v CAN1_IsTxChannel@channel channel `uc  1 a 1 wreg ]
+[v CAN1_IsTxChannel@channel channel `uc  1 a 1 wreg ]
+"185
+[v CAN1_IsTxChannel@channel channel `uc  1 a 1 3 ]
+"186
+} 0
+"194
+[v _CAN1_GetTxFifoStatus CAN1_GetTxFifoStatus `(E22674  1 s 1 CAN1_GetTxFifoStatus ]
+{
+[v CAN1_GetTxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+[v CAN1_GetTxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+"196
+[v CAN1_GetTxFifoStatus@validChannel validChannel `uc  1 a 1 2 ]
+"197
+} 0
+"206
+[v _CAN1_MessageWriteToFifo CAN1_MessageWriteToFifo `(v  1 s 1 CAN1_MessageWriteToFifo ]
+{
+"208
+[v CAN1_MessageWriteToFifo@msgId msgId `ul  1 a 4 23 ]
+"206
+[v CAN1_MessageWriteToFifo@txFifoObj txFifoObj `*.39uc  1 p 2 14 ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_MessageWriteToFifo@txCanMsg txCanMsg `*.39S50  1 p 2 16 ]
+"257
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"8
+[v memcpy@s s `*.39Cuc  1 a 2 12 ]
+"7
+[v memcpy@d d `*.39uc  1 a 2 10 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 9 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 3 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 5 ]
+[v memcpy@n n `ui  1 p 2 7 ]
+"18
+} 0
+"749 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/can/src/can1.c
+[v _CAN1_ReceivedMessageCountGet CAN1_ReceivedMessageCountGet `(uc  1 e 1 0 ]
+{
+"752
+[v CAN1_ReceivedMessageCountGet@index index `uc  1 a 1 11 ]
+"757
+[v CAN1_ReceivedMessageCountGet@rxfifoMsgTail rxfifoMsgTail `uc  1 a 1 10 ]
+"756
+[v CAN1_ReceivedMessageCountGet@fifoDepth fifoDepth `uc  1 a 1 9 ]
+"751
+[v CAN1_ReceivedMessageCountGet@fifoChannel fifoChannel `E22631  1 a 1 8 ]
+"755
+[v CAN1_ReceivedMessageCountGet@numOfMsg numOfMsg `uc  1 a 1 7 ]
+"754
+[v CAN1_ReceivedMessageCountGet@rxMsgStatus rxMsgStatus `uc  1 a 1 6 ]
+"753
+[v CAN1_ReceivedMessageCountGet@totalMsgObj totalMsgObj `uc  1 a 1 5 ]
+"798
+} 0
+"713
+[v _CAN1_Receive CAN1_Receive `(a  1 e 1 0 ]
+{
+"715
+[v CAN1_Receive@index index `uc  1 a 1 27 ]
+"716
+[v CAN1_Receive@status status `a  1 a 1 26 ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+"713
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_Receive@rxCanMsg rxCanMsg `*.39S50  1 p 2 24 ]
+"730
+} 0
+"399
+[v _CAN1_ReceiveFromFiFo CAN1_ReceiveFromFiFo `(a  1 s 1 CAN1_ReceiveFromFiFo ]
+{
+[v CAN1_ReceiveFromFiFo@index index `uc  1 a 1 wreg ]
+"403
+[v CAN1_ReceiveFromFiFo@rxFifoObj rxFifoObj `*.39uc  1 a 2 20 ]
+"402
+[v CAN1_ReceiveFromFiFo@rxMsgStatus rxMsgStatus `uc  1 a 1 22 ]
+"401
+[v CAN1_ReceiveFromFiFo@status status `a  1 a 1 19 ]
+"399
+[v CAN1_ReceiveFromFiFo@index index `uc  1 a 1 wreg ]
+[v CAN1_ReceiveFromFiFo@channel channel `E22631  1 p 1 14 ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_ReceiveFromFiFo@rxCanMsg rxCanMsg `*.39S50  1 p 2 15 ]
+"401
+[v CAN1_ReceiveFromFiFo@index index `uc  1 a 1 23 ]
+"439
+} 0
+"348
+[v _CAN1_MessageReadFromFifo CAN1_MessageReadFromFifo `(v  1 s 1 CAN1_MessageReadFromFifo ]
+{
+"351
+[v CAN1_MessageReadFromFifo@msgId msgId `ul  1 a 4 9 ]
+"350
+[v CAN1_MessageReadFromFifo@index index `uc  1 a 1 13 ]
+"348
+[v CAN1_MessageReadFromFifo@rxFifoObj rxFifoObj `*.39uc  1 p 2 3 ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_MessageReadFromFifo@rxCanMsg rxCanMsg `*.39S50  1 p 2 5 ]
+"388
+} 0
+"159
+[v _CAN1_DlcToDataBytesGet CAN1_DlcToDataBytesGet `(uc  1 s 1 CAN1_DlcToDataBytesGet ]
+{
+[v CAN1_DlcToDataBytesGet@dlc dlc `CE22681  1 a 1 wreg ]
+[v CAN1_DlcToDataBytesGet@dlc dlc `CE22681  1 a 1 wreg ]
+"161
+[v CAN1_DlcToDataBytesGet@dlcByteSize dlcByteSize `C[9]uc  1 s 9 dlcByteSize ]
+[v CAN1_DlcToDataBytesGet@dlc dlc `CE22681  1 a 1 2 ]
+"163
+} 0
+"325
+[v _CAN1_GetRxFifoStatus CAN1_GetRxFifoStatus `(uc  1 s 1 CAN1_GetRxFifoStatus ]
+{
+[v CAN1_GetRxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+[v CAN1_GetRxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+"327
+[v CAN1_GetRxFifoStatus@validChannel validChannel `uc  1 a 1 2 ]
+"328
+} 0
+"336
+[v _CAN1_GetRxFifoDepth CAN1_GetRxFifoDepth `(uc  1 s 1 CAN1_GetRxFifoDepth ]
+{
+[v CAN1_GetRxFifoDepth@validChannel validChannel `uc  1 a 1 wreg ]
+[v CAN1_GetRxFifoDepth@validChannel validChannel `uc  1 a 1 wreg ]
+"338
+[v CAN1_GetRxFifoDepth@validChannel validChannel `uc  1 a 1 3 ]
+"339
+} 0
+"80 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"99
+} 0
+"117 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/timer/src/tmr0.c
+[v _Timer0_OverflowISR Timer0_OverflowISR `(v  1 e 1 0 ]
+{
+"129
+} 0
+"136
+[v _Timer0_DefaultOverflowCallback Timer0_DefaultOverflowCallback `(v  1 s 1 Timer0_DefaultOverflowCallback ]
+{
+"140
+} 0
+"57 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\main.c
+[v _UpdateTmr UpdateTmr `(v  1 s 1 UpdateTmr ]
+{
+"59
+} 0
+"128 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"130
+} 0
+"907 C:\msys64\home\tim.sabelmann\naext\T5-Fuel-Gauge.X\mcc_generated_files/can/src/can1.c
+[v _CAN1_InformationISR CAN1_InformationISR `(v  1 e 1 0 ]
+{
+"921
+} 0
